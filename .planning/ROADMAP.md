@@ -25,10 +25,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   1. User can run `npm run dev` and see app in browser
   2. User can run `npm run build` without errors
   3. Project structure follows standard Vite conventions
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] TBD during planning
+- [ ] 01-01-PLAN.md — Scaffold Vite+React+TS project and verify dev/build tools
 
 ### Phase 2: Date Display
 **Goal**: User sees current date on the page
@@ -50,5 +50,5 @@ Phases execute in numeric order: 1 → 2
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Project Setup | 0/TBD | Not started | - |
+| 1. Project Setup | 0/1 | Planned | - |
 | 2. Date Display | 0/TBD | Not started | - |
