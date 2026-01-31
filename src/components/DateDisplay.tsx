@@ -1,4 +1,8 @@
-function DateDisplay() {
+type DateDisplayProps = {
+  color: string;
+};
+
+function DateDisplay({ color }: DateDisplayProps) {
   const formatter = new Intl.DateTimeFormat('en-US', {
     weekday: 'long',
     year: 'numeric',
@@ -7,7 +11,7 @@ function DateDisplay() {
   });
 
   return (
-    <div className="date-display">
+    <div className="date-display" style={{ color }}>
       {formatter.format(new Date())}
     </div>
   );
