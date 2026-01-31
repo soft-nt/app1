@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A React web application that displays the current date at the top of the page. Built as an experiment to explore the GSD workflow and demonstrate how the system handles planning, execution, and iteration on a simple project.
+A React web application that displays the current date. Built to demonstrate the GSD workflow from initialization through execution on a simple, focused project with clean architecture.
 
 ## Core Value
 
@@ -12,44 +12,61 @@ A working React app that successfully demonstrates the GSD workflow from initial
 
 ### Validated
 
-(None yet — ship to validate)
+- ✓ **React app initialized with Vite** — v1.0 (SETUP-01)
+- ✓ **Development server runs locally** — v1.0 (SETUP-02)
+- ✓ **Project can build for production** — v1.0 (SETUP-03)
+- ✓ **Current date displays at top of page** — v1.0 (DISP-01)
+- ✓ **Date updates when page loads** — v1.0 (DISP-02)
+- ✓ **Clean, minimal styling applied** — v1.0 (DISP-03)
 
 ### Active
 
-- [ ] Display current date at top of page
-- [ ] React app with modern tooling (Vite or Create React App)
-- [ ] Clean, minimal UI
-- [ ] Development server that runs locally
+(Next milestone requirements will be defined during `/gsd:new-milestone`)
 
 ### Out of Scope
 
-- Complex UI frameworks or design systems — keep it simple for v1
+- Complex UI frameworks or design systems — keep it simple
 - Backend server or API — client-side only for now
 - Database or persistence — not needed yet
-- Multiple pages or routing — single page for v1
+- Multiple pages or routing — single page sufficient
 - Testing infrastructure — can add later if needed
 
 ## Context
 
-This is an experimental project to test and learn the GSD workflow. The goal is to see how GSD handles the full lifecycle:
-- How it breaks down even simple projects
-- How planning and execution work
-- How iteration and feature additions are managed
+**Shipped v1.0 on 2026-01-31:**
+- React 19.2 + Vite 7.3.1 + TypeScript 5.9
+- 118 lines of code (TypeScript/CSS in src/)
+- 2 phases, 2 plans, 5 tasks
+- Zero dependencies for date formatting (native Intl.DateTimeFormat)
+- Production-ready build pipeline verified
 
-The date display is intentionally minimal - a working proof of concept that can grow based on what's learned from the GSD process.
+**Tech Stack:**
+- React 19.2.3 with TypeScript 5.9.3
+- Vite 7.3.1 for build tooling
+- ESLint 9 with typescript-eslint
+- Native Intl.DateTimeFormat for date display
+
+**Component Structure:**
+- `src/components/DateDisplay.tsx` — Date display component
+- `src/App.tsx` — Main application component
+- Standard Vite project structure
 
 ## Constraints
 
-- **Tech stack**: React — requested by user
-- **Scope**: Keep v1 minimal — priority is testing GSD, not building complex features
-- **Timeline**: None — this is exploratory
+- **Tech stack**: React (user preference)
+- **Scope**: Keep focused — priority is GSD workflow demonstration
+- **Timeline**: None — experimental/exploratory project
 
 ## Key Decisions
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| React for framework | User preference, widely supported, good for experiments | — Pending |
-| Minimal v1 scope | Focus on GSD workflow learning, not feature complexity | — Pending |
+| React for framework | User preference, widely supported, good for experiments | ✓ Good - worked well |
+| Minimal v1 scope | Focus on GSD workflow learning, not feature complexity | ✓ Good - clean demo |
+| Vite 7.3.1 with react-ts template | Official React recommendation, production-ready defaults | ✓ Good - zero config issues |
+| Zero configuration modifications | Maintain production-ready defaults per research | ✓ Good - no build issues |
+| Intl.DateTimeFormat for dates | Native browser API, zero dependencies, locale-aware | ✓ Good - simple and effective |
+| src/components/ directory structure | Standard React pattern for component organization | ✓ Good - clear structure |
 
 ---
-*Last updated: 2026-01-31 after initialization*
+*Last updated: 2026-01-31 after v1.0 milestone*

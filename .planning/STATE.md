@@ -5,16 +5,17 @@
 See: .planning/PROJECT.md (updated 2026-01-31)
 
 **Core value:** A working React app that successfully demonstrates the GSD workflow from initialization through execution, with clean architecture that makes adding features straightforward.
-**Current focus:** All phases complete - date display app fully functional
+**Current focus:** v1.0 shipped — planning next milestone
 
 ## Current Position
 
-Phase: 2 of 2 (Date Display)
-Plan: 1 of 1 in current phase
-Status: Phase complete - Project complete
-Last activity: 2026-01-31 — Completed 02-01-PLAN.md
+Milestone: v1.0 shipped
+Phase: Not started (awaiting next milestone definition)
+Plan: None
+Status: Ready for next milestone
+Last activity: 2026-01-31 — v1.0 milestone complete
 
-Progress: [██████████] 100% (All phases complete)
+Progress: [██████████] v1.0: 100% (2/2 phases shipped)
 
 ## Performance Metrics
 
@@ -40,17 +41,8 @@ Progress: [██████████] 100% (All phases complete)
 
 ### Decisions
 
-Decisions are logged in PROJECT.md Key Decisions table.
-Recent decisions affecting current work:
-
-- Initialization: React chosen as framework (user preference)
-- Initialization: Minimal v1 scope to focus on GSD workflow testing
-- 01-01: Used Vite 7.3.1 with react-ts template (official React recommendation)
-- 01-01: Zero configuration modifications to maintain production-ready defaults
-- 01-01: Verified both dev server and production build before completion
-- 02-01: Used Intl.DateTimeFormat for locale-aware date formatting (native API, zero dependencies)
-- 02-01: Removed all Vite demo content to start with clean slate
-- 02-01: Established src/components/ directory for component organization
+All v1.0 decisions validated and archived in PROJECT.md Key Decisions table.
+Full history available in .planning/milestones/v1.0-ROADMAP.md.
 
 ### Pending Todos
 
@@ -63,6 +55,6 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-01-31
-Stopped at: Phase 2 execution complete - All phases finished
+Stopped at: v1.0 milestone archived
 Resume file: None
-Next action: Project complete - ready for user review
+Next action: Define next milestone with /gsd:new-milestone
