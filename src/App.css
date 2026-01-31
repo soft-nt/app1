@@ -5,10 +5,27 @@
   text-align: center;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
 .date-display {
   font-size: 1.5rem;
-  text-align: center;
   padding: 2rem 0;
+}
+
+.weather-widget {
+  display: flex;
+  align-items: center;
+}
+
+.weather-location {
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .button {
