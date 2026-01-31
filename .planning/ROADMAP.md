@@ -2,14 +2,14 @@
 
 ## Milestones
 
-- ✅ **v1.0 MVP** - Phases 1-2 (shipped 2026-01-31)
-- ✅ **v1.1 Interactive Button** - Phases 3-4 (shipped 2026-01-31)
-- 🚧 **v1.2 Weather Widget** - Phases 5-7 (in progress)
+- v1.0 MVP - Phases 1-2 (shipped 2026-01-31)
+- v1.1 Interactive Button - Phases 3-4 (shipped 2026-01-31)
+- v1.2 Weather Widget - Phases 5-7 (in progress)
 
 ## Phases
 
 <details>
-<summary>✅ v1.0 MVP (Phases 1-2) - SHIPPED 2026-01-31</summary>
+<summary>v1.0 MVP (Phases 1-2) - SHIPPED 2026-01-31</summary>
 
 ### Phase 1: Project Setup
 **Goal**: React development environment configured and running
@@ -28,7 +28,7 @@ Plans:
 </details>
 
 <details>
-<summary>✅ v1.1 Interactive Button (Phases 3-4) - SHIPPED 2026-01-31</summary>
+<summary>v1.1 Interactive Button (Phases 3-4) - SHIPPED 2026-01-31</summary>
 
 ### Phase 3: Button Component
 **Goal**: Interactive button displays centered below date
@@ -46,7 +46,7 @@ Plans:
 
 </details>
 
-### 🚧 v1.2 Weather Widget (In Progress)
+### v1.2 Weather Widget (In Progress)
 
 **Milestone Goal:** Add weather widget in header showing current temperature and conditions for Geneva using OpenWeatherMap API.
 
@@ -59,10 +59,10 @@ Plans:
   2. TypeScript interfaces defined for API response structure (WeatherData, WeatherCondition)
   3. Developer can run project with valid API key without errors
   4. Type safety enforced for weather data throughout application
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 05-01: TBD
+- [ ] 05-01: Environment configuration and TypeScript types
 
 #### Phase 6: Layout Integration
 **Goal**: Header structure displays date left and weather widget placeholder right
@@ -97,7 +97,7 @@ Plans:
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 
 | Phase | Milestone | Plans Complete | Status | Completed |
 |-------|-----------|----------------|--------|-----------|
@@ -105,9 +105,9 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 | 2. Date Display | v1.0 | 1/1 | Complete | 2026-01-31 |
 | 3. Button Component | v1.1 | 1/1 | Complete | 2026-01-31 |
 | 4. Color Interaction | v1.1 | 1/1 | Complete | 2026-01-31 |
-| 5. Project Setup & Environment | v1.2 | 0/TBD | Not started | - |
+| 5. Project Setup & Environment | v1.2 | 0/1 | Not started | - |
 | 6. Layout Integration | v1.2 | 0/TBD | Not started | - |
 | 7. API Integration & Weather Display | v1.2 | 0/TBD | Not started | - |
 
 ---
-*Last updated: 2026-01-31 — v1.2 roadmap created*
+*Last updated: 2026-01-31 --- Phase 5 planned*
