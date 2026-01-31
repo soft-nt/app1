@@ -10,17 +10,17 @@ See: .planning/PROJECT.md (updated 2026-01-31)
 ## Current Position
 
 Phase: 8 of 8 (City Configuration)
-Plan: 2 of 5 complete
+Plan: 3 of 5 complete
 Status: In progress
-Last activity: 2026-01-31 — Completed 08-02-PLAN.md (Settings modal shell)
+Last activity: 2026-01-31 — Completed 08-03-PLAN.md (City selection components)
 
-Progress: [█████████░░░] 75% (9/12 plans complete)
+Progress: [█████████░░░] 83% (10/12 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 9
-- Average duration: ~38 min/plan
+- Total plans completed: 10
+- Average duration: ~34 min/plan
 - Total execution time: ~5.7 hours
 
 **By Phase:**
@@ -30,13 +30,13 @@ Progress: [█████████░░░] 75% (9/12 plans complete)
 | 1-2 (v1.0) | 2 | ~45 min | ~23 min |
 | 3-4 (v1.1) | 2 | ~4.7 hrs | ~141 min |
 | 5-7 (v1.2) | 3 | ~65 min | ~22 min |
-| 8 (v1.4) | 2 | ~2.3 min | ~1.2 min |
+| 8 (v1.4) | 3 | ~3.3 min | ~1.1 min |
 
 **Recent Trend:**
-- Last 5 plans (v1.2-v1.4): ~14 min average
+- Last 5 plans (v1.2-v1.4): ~10 min average
 - Trend: Accelerating (focused component work with zero dependencies)
 
-*Updated: 2026-01-31 after completing 08-02*
+*Updated: 2026-01-31 after completing 08-03*
 
 ## Accumulated Context
 
@@ -44,6 +44,10 @@ Progress: [█████████░░░] 75% (9/12 plans complete)
 
 Recent decisions affecting v1.4 work:
 
+- [08-03]: OpenStreetMap embed iframe for maps (zero dependencies, no API key required)
+- [08-03]: useMemo optimization for real-time city filtering performance
+- [08-03]: Filter by both city name and country for flexible search
+- [08-03]: Lazy loading map iframe for performance
 - [08-02]: Native dialog element for modals (zero dependencies, built-in accessibility)
 - [08-02]: Manual backdrop click handler required (not default dialog behavior)
 - [08-01]: Hardcoded city list with coordinates to avoid geocoding API dependency
@@ -66,10 +70,10 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-01-31 19:01:37 UTC
-Stopped at: Completed 08-02-PLAN.md (Settings modal shell)
+Last session: 2026-01-31 19:05:07 UTC
+Stopped at: Completed 08-03-PLAN.md (City selection components)
 Resume file: None
-Next step: Execute 08-03-PLAN.md (City selection components) or plan remaining Phase 8 work
+Next step: Plan 08-04 (Modal integration) or execute remaining Phase 8 work
 
 ---
-*Last updated: 2026-01-31 after completing 08-02 execution*
+*Last updated: 2026-01-31 after completing 08-03 execution*
