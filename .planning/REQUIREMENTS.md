@@ -9,44 +9,44 @@ Requirements for city configuration feature. Each maps to roadmap phases.
 
 ### Settings Interface
 
-- [ ] **SETT-01**: Settings icon (gear) displays in header
-- [ ] **SETT-02**: Settings icon opens modal/panel on click
-- [ ] **SETT-03**: Settings modal displays with backdrop overlay
-- [ ] **SETT-04**: Modal closes via X button
-- [ ] **SETT-05**: Modal closes when clicking backdrop overlay
-- [ ] **SETT-06**: Settings modal styling consistent with app design
+- [x] **SETT-01**: Settings icon (gear) displays in header
+- [x] **SETT-02**: Settings icon opens modal/panel on click
+- [x] **SETT-03**: Settings modal displays with backdrop overlay
+- [x] **SETT-04**: Modal closes via X button
+- [x] **SETT-05**: Modal closes when clicking backdrop overlay
+- [x] **SETT-06**: Settings modal styling consistent with app design
 
 ### City Selection
 
-- [ ] **CITY-01**: Dropdown displays list of 20+ preset cities
-- [ ] **CITY-02**: Search/filter input allows typing to filter city list
-- [ ] **CITY-03**: Filtered results update as user types
-- [ ] **CITY-04**: Currently selected city shows visual indicator (checkmark/highlight)
-- [ ] **CITY-05**: Clicking a city selects it and updates weather
-- [ ] **CITY-06**: City list includes major global cities across timezones
+- [x] **CITY-01**: Dropdown displays list of 20+ preset cities
+- [x] **CITY-02**: Search/filter input allows typing to filter city list
+- [x] **CITY-03**: Filtered results update as user types
+- [x] **CITY-04**: Currently selected city shows visual indicator (checkmark/highlight)
+- [x] **CITY-05**: Clicking a city selects it and updates weather
+- [x] **CITY-06**: City list includes major global cities across timezones
 
 ### Data Persistence
 
-- [ ] **STORE-01**: Selected city saves to localStorage
-- [ ] **STORE-02**: App loads saved city on page reload
-- [ ] **STORE-03**: App defaults to Geneva if no saved selection exists
-- [ ] **STORE-04**: City selection persists across browser sessions
+- [x] **STORE-01**: Selected city saves to localStorage
+- [x] **STORE-02**: App loads saved city on page reload
+- [x] **STORE-03**: App defaults to Geneva if no saved selection exists
+- [x] **STORE-04**: City selection persists across browser sessions
 
 ### Weather Integration
 
-- [ ] **INTEG-01**: Weather widget fetches data for currently selected city
-- [ ] **INTEG-02**: Geocoding service converts city name to coordinates
-- [ ] **INTEG-03**: Weather data updates when city selection changes
-- [ ] **INTEG-04**: Loading state displays during city switch fetch
-- [ ] **INTEG-05**: Error message displays if geocoding fails
-- [ ] **INTEG-06**: Error message displays if weather fetch fails for new city
-- [ ] **INTEG-07**: Weather widget shows city name of current selection
+- [x] **INTEG-01**: Weather widget fetches data for currently selected city
+- [x] **INTEG-02**: Geocoding service converts city name to coordinates
+- [x] **INTEG-03**: Weather data updates when city selection changes
+- [x] **INTEG-04**: Loading state displays during city switch fetch
+- [x] **INTEG-05**: Error message displays if geocoding fails
+- [x] **INTEG-06**: Error message displays if weather fetch fails for new city
+- [x] **INTEG-07**: Weather widget shows city name of current selection
 
 ### Location Display
 
-- [ ] **MAP-01**: Map indicator displays in settings modal
-- [ ] **MAP-02**: Map shows location of selected city
-- [ ] **MAP-03**: Map visual integrates cleanly with settings UI
+- [x] **MAP-01**: Map indicator displays in settings modal
+- [x] **MAP-02**: Map shows location of selected city
+- [x] **MAP-03**: Map visual integrates cleanly with settings UI
 
 ## v2 Requirements
 
