@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-01-31)
 
 **Core value:** A working React app that successfully demonstrates the GSD workflow from initialization through execution, with clean architecture that makes adding features straightforward.
-**Current focus:** v1.2 Weather Widget - defining requirements
+**Current focus:** Phase 5 - Project Setup & Environment
 
 ## Current Position
 
-Phase: Not started (defining requirements)
-Plan: —
-Status: Defining requirements
-Last activity: 2026-01-31 — Milestone v1.2 started
+Phase: 5 of 7 (Project Setup & Environment)
+Plan: 0 of TBD in current phase
+Status: Ready to plan
+Last activity: 2026-01-31 — v1.2 roadmap created with 3 phases covering 19 requirements
 
-Progress: Gathering requirements for Weather Widget
+Progress: [████░░░░░░] 57% (4/7 phases complete)
 
 ## Performance Metrics
 
@@ -42,8 +42,12 @@ Progress: Gathering requirements for Weather Widget
 
 ### Decisions
 
-All v1.1 decisions validated and archived in PROJECT.md Key Decisions table.
-Full history available in .planning/milestones/v1.1-ROADMAP.md and .planning/milestones/v1.0-ROADMAP.md.
+Decisions are logged in PROJECT.md Key Decisions table.
+Recent decisions affecting current work:
+
+- v1.1: Lift state to App.tsx for shared color state between components
+- v1.0: Zero configuration approach with Vite production-ready defaults
+- v1.0: Native Intl.DateTimeFormat for dates (zero dependencies)
 
 ### Pending Todos
 
@@ -51,11 +55,18 @@ Full history available in .planning/milestones/v1.1-ROADMAP.md and .planning/mil
 
 ### Blockers/Concerns
 
-None yet.
+**Phase 5 readiness:**
+- OpenWeatherMap API key requires 2-hour activation after creation (documented in research)
+- VITE_ prefix exposes env vars in bundle (requires domain restrictions in API dashboard)
+
+**Mitigation:** Both documented in research/PITFALLS.md with prevention strategies.
 
 ## Session Continuity
 
 Last session: 2026-01-31
-Stopped at: v1.1 milestone completion
+Stopped at: Roadmap created for v1.2 Weather Widget, 3 phases defined
 Resume file: None
-Next action: Start next milestone with /gsd:new-milestone (questioning → research → requirements → roadmap)
+Next action: Run `/gsd:plan-phase 5` to create execution plan for Project Setup & Environment
+
+---
+*Last updated: 2026-01-31 after roadmap creation*

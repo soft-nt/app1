@@ -74,31 +74,31 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| LAY-01 | TBD | Pending |
-| LAY-02 | TBD | Pending |
-| LAY-03 | TBD | Pending |
-| LAY-04 | TBD | Pending |
-| WTH-01 | TBD | Pending |
-| WTH-02 | TBD | Pending |
-| WTH-03 | TBD | Pending |
-| WTH-04 | TBD | Pending |
-| WTH-05 | TBD | Pending |
-| API-01 | TBD | Pending |
-| API-02 | TBD | Pending |
-| API-03 | TBD | Pending |
-| API-04 | TBD | Pending |
-| API-05 | TBD | Pending |
-| STA-01 | TBD | Pending |
-| STA-02 | TBD | Pending |
-| STA-03 | TBD | Pending |
-| STA-04 | TBD | Pending |
-| STA-05 | TBD | Pending |
+| API-02 | Phase 5 | Pending |
+| API-05 | Phase 5 | Pending |
+| LAY-01 | Phase 6 | Pending |
+| LAY-02 | Phase 6 | Pending |
+| LAY-03 | Phase 6 | Pending |
+| LAY-04 | Phase 6 | Pending |
+| WTH-04 | Phase 6 | Pending |
+| API-01 | Phase 7 | Pending |
+| API-03 | Phase 7 | Pending |
+| API-04 | Phase 7 | Pending |
+| WTH-01 | Phase 7 | Pending |
+| WTH-02 | Phase 7 | Pending |
+| WTH-03 | Phase 7 | Pending |
+| WTH-05 | Phase 7 | Pending |
+| STA-01 | Phase 7 | Pending |
+| STA-02 | Phase 7 | Pending |
+| STA-03 | Phase 7 | Pending |
+| STA-04 | Phase 7 | Pending |
+| STA-05 | Phase 7 | Pending |
 
 **Coverage:**
 - v1.2 requirements: 19 total
-- Mapped to phases: 0 (roadmap pending)
-- Unmapped: 19 ⚠️
+- Mapped to phases: 19/19 ✓
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 after initial definition*
+*Last updated: 2026-01-31 after roadmap creation*
