@@ -102,6 +102,7 @@ A working React app that successfully demonstrates the GSD workflow from initial
 | Hex color format (#RRGGBB) | Universal browser support, simple random generation | ✓ Good - straightforward |
 | Inline styles for dynamic colors | Runtime color changes without CSS class overhead | ✓ Good - appropriate for dynamic values |
 | Lift state up to App.tsx | Single source of truth for color state shared by components | ✓ Good - clean data flow |
+| Open-Meteo for weather API | No API key required, excellent CORS support, production-ready, 10k req/day free | ✓ Good - eliminates auth complexity |
 
 ---
-*Last updated: 2026-01-31 after starting v1.2 milestone*
+*Last updated: 2026-01-31 after switching to Open-Meteo API*

@@ -46,9 +46,9 @@ Progress: [███████░░░] 71% (5/7 phases complete)
 Decisions are logged in PROJECT.md Key Decisions table.
 Recent decisions affecting current work:
 
+- v1.2: Switch to Open-Meteo API (no API key, CORS-enabled, production-ready)
 - v1.2: Use Vite VITE_ prefix pattern for client-side environment variable exposure
 - v1.2: Extend ImportMetaEnv interface for TypeScript autocomplete on env vars
-- v1.2: Mark optional OpenWeatherMap API fields with ? for variable responses
 - v1.1: Lift state to App.tsx for shared color state between components
 - v1.0: Zero configuration approach with Vite production-ready defaults
 
@@ -58,11 +58,7 @@ Recent decisions affecting current work:
 
 ### Blockers/Concerns
 
-**Phase 6-7 readiness:**
-- OpenWeatherMap API key requires ~2 hours activation after creation (user setup documented in 05-01-SUMMARY.md)
-- VITE_ prefix exposes API key in client bundle (recommend domain restrictions in OpenWeatherMap dashboard)
-
-**Mitigation:** User setup instructions provided in summary. API key security considerations documented.
+None - Switched to Open-Meteo API (no authentication required).
 
 ## Session Continuity
 
