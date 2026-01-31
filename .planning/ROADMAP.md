@@ -4,7 +4,7 @@
 
 - v1.0 MVP - Phases 1-2 (shipped 2026-01-31)
 - v1.1 Interactive Button - Phases 3-4 (shipped 2026-01-31)
-- v1.2 Weather Widget - Phases 5-7 (in progress)
+- v1.2 Weather Widget - Phases 5-7 (shipped 2026-01-31)
 
 ## Phases
 
@@ -46,7 +46,8 @@ Plans:
 
 </details>
 
-### v1.2 Weather Widget (In Progress)
+<details>
+<summary>v1.2 Weather Widget (Phases 5-7) - SHIPPED 2026-01-31</summary>
 
 **Milestone Goal:** Add weather widget in header showing current temperature and conditions for Geneva using OpenWeatherMap API.
 
@@ -92,7 +93,9 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 07-01-PLAN.md — Weather fetch with react-icons, loading/error states, and display
+- [x] 07-01: Weather fetch with react-icons, loading/error states, and display
+
+</details>
 
 ## Progress
 
@@ -107,7 +110,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 | 4. Color Interaction | v1.1 | 1/1 | Complete | 2026-01-31 |
 | 5. Project Setup & Environment | v1.2 | 1/1 | Complete | 2026-01-31 |
 | 6. Layout Integration | v1.2 | 1/1 | Complete | 2026-01-31 |
-| 7. API Integration & Weather Display | v1.2 | 0/1 | Not started | - |
+| 7. API Integration & Weather Display | v1.2 | 1/1 | Complete | 2026-01-31 |
 
 ---
-*Last updated: 2026-01-31 --- Phase 7 planned*
+*Last updated: 2026-01-31 --- Phase 7 complete*

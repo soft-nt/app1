@@ -16,27 +16,27 @@ Requirements for weather widget milestone. Each maps to roadmap phases.
 
 ### Weather Display
 
-- [ ] **WTH-01**: Current temperature displays in Celsius (°C)
-- [ ] **WTH-02**: Weather condition icon displays
-- [ ] **WTH-03**: Weather condition text displays (e.g., "Cloudy", "Sunny")
+- [x] **WTH-01**: Current temperature displays in Celsius (°C)
+- [x] **WTH-02**: Weather condition icon displays
+- [x] **WTH-03**: Weather condition text displays (e.g., "Cloudy", "Sunny")
 - [x] **WTH-04**: Location label "Geneva" displays
-- [ ] **WTH-05**: Temperature shows with degree symbol and unit
+- [x] **WTH-05**: Temperature shows with degree symbol and unit
 
 ### API Integration
 
-- [ ] **API-01**: App integrates with OpenWeatherMap API
+- [x] **API-01**: App integrates with OpenWeatherMap API
 - [x] **API-02**: API key stored securely in environment variable
-- [ ] **API-03**: Weather data fetched on page load (component mount)
-- [ ] **API-04**: API response parsed correctly for Geneva location
+- [x] **API-03**: Weather data fetched on page load (component mount)
+- [x] **API-04**: API response parsed correctly for Geneva location
 - [x] **API-05**: TypeScript types defined for API response
 
 ### State Management
 
-- [ ] **STA-01**: Loading state displays while fetching weather
-- [ ] **STA-02**: Error state displays if weather fetch fails
-- [ ] **STA-03**: Weather data displays when successfully loaded
-- [ ] **STA-04**: Race conditions prevented with useEffect cleanup
-- [ ] **STA-05**: Component handles API errors gracefully
+- [x] **STA-01**: Loading state displays while fetching weather
+- [x] **STA-02**: Error state displays if weather fetch fails
+- [x] **STA-03**: Weather data displays when successfully loaded
+- [x] **STA-04**: Race conditions prevented with useEffect cleanup
+- [x] **STA-05**: Component handles API errors gracefully
 
 ## Future Requirements
 
@@ -81,18 +81,18 @@ Which phases cover which requirements. Updated during roadmap creation.
 | LAY-03 | Phase 6 | Complete |
 | LAY-04 | Phase 6 | Complete |
 | WTH-04 | Phase 6 | Complete |
-| API-01 | Phase 7 | Pending |
-| API-03 | Phase 7 | Pending |
-| API-04 | Phase 7 | Pending |
-| WTH-01 | Phase 7 | Pending |
-| WTH-02 | Phase 7 | Pending |
-| WTH-03 | Phase 7 | Pending |
-| WTH-05 | Phase 7 | Pending |
-| STA-01 | Phase 7 | Pending |
-| STA-02 | Phase 7 | Pending |
-| STA-03 | Phase 7 | Pending |
-| STA-04 | Phase 7 | Pending |
-| STA-05 | Phase 7 | Pending |
+| API-01 | Phase 7 | Complete |
+| API-03 | Phase 7 | Complete |
+| API-04 | Phase 7 | Complete |
+| WTH-01 | Phase 7 | Complete |
+| WTH-02 | Phase 7 | Complete |
+| WTH-03 | Phase 7 | Complete |
+| WTH-05 | Phase 7 | Complete |
+| STA-01 | Phase 7 | Complete |
+| STA-02 | Phase 7 | Complete |
+| STA-03 | Phase 7 | Complete |
+| STA-04 | Phase 7 | Complete |
+| STA-05 | Phase 7 | Complete |
 
 **Coverage:**
 - v1.2 requirements: 19 total
@@ -101,4 +101,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 after Phase 6 execution*
+*Last updated: 2026-01-31 after Phase 7 execution*
