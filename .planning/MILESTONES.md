@@ -1,5 +1,32 @@
 # Project Milestones: Date Display App
 
+## v1.1 Interactive Button (Shipped: 2026-01-31)
+
+**Delivered:** Interactive button that changes date color randomly on click, demonstrating React state management and event handling
+
+**Phases completed:** 3-4 (2 plans total)
+
+**Key accomplishments:**
+
+- Created reusable Button component with green styling and centered layout
+- Implemented React state management with useState hook for color control
+- Built random hex color generator with proper RGB conversion
+- Wired interactive click events to trigger visual color changes on date display
+- Established component prop patterns with TypeScript type safety
+
+**Stats:**
+
+- 11 files modified
+- 168 lines of TypeScript/CSS
+- 2 phases, 2 plans, 4 tasks
+- < 1 day from start to ship (2026-01-31, ~4.7 hours)
+
+**Git range:** `feat(03-01)` → `feat(04-01)`
+
+**What's next:** Milestone cycle demonstrated. Future enhancements could include color history, persistence, or additional interactive features.
+
+---
+
 ## v1.0 MVP (Shipped: 2026-01-31)
 
 **Delivered:** Working React application displaying current date with clean minimal styling
