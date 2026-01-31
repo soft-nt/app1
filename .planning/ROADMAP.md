@@ -73,10 +73,10 @@ Plans:
   2. Flexbox layout arranges header elements horizontally with appropriate spacing
   3. Weather placeholder shows "Geneva" location label
   4. Layout is responsive and elements maintain proper alignment
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 06-01: TBD
+- [ ] 06-01: Header layout with date left and weather placeholder right
 
 #### Phase 7: API Integration & Weather Display
 **Goal**: Working weather data fetched and displayed with loading/error states
@@ -106,8 +106,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 | 3. Button Component | v1.1 | 1/1 | Complete | 2026-01-31 |
 | 4. Color Interaction | v1.1 | 1/1 | Complete | 2026-01-31 |
 | 5. Project Setup & Environment | v1.2 | 1/1 | Complete | 2026-01-31 |
-| 6. Layout Integration | v1.2 | 0/TBD | Not started | - |
+| 6. Layout Integration | v1.2 | 0/1 | Not started | - |
 | 7. API Integration & Weather Display | v1.2 | 0/TBD | Not started | - |
 
 ---
-*Last updated: 2026-01-31 --- Phase 5 complete*
+*Last updated: 2026-01-31 --- Phase 6 planned*
