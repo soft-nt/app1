@@ -10,17 +10,17 @@ See: .planning/PROJECT.md (updated 2026-01-31)
 ## Current Position
 
 Phase: 8 of 8 (City Configuration)
-Plan: 3 of 5 complete
+Plan: 4 of 5 complete
 Status: In progress
-Last activity: 2026-01-31 — Completed 08-03-PLAN.md (City selection components)
+Last activity: 2026-01-31 — Completed 08-04-PLAN.md (Weather widget props)
 
-Progress: [█████████░░░] 83% (10/12 plans complete)
+Progress: [█████████░░░] 92% (11/12 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 10
-- Average duration: ~34 min/plan
+- Total plans completed: 11
+- Average duration: ~31 min/plan
 - Total execution time: ~5.7 hours
 
 **By Phase:**
@@ -30,13 +30,13 @@ Progress: [█████████░░░] 83% (10/12 plans complete)
 | 1-2 (v1.0) | 2 | ~45 min | ~23 min |
 | 3-4 (v1.1) | 2 | ~4.7 hrs | ~141 min |
 | 5-7 (v1.2) | 3 | ~65 min | ~22 min |
-| 8 (v1.4) | 3 | ~3.3 min | ~1.1 min |
+| 8 (v1.4) | 4 | ~4.3 min | ~1.1 min |
 
 **Recent Trend:**
-- Last 5 plans (v1.2-v1.4): ~10 min average
+- Last 5 plans (v1.2-v1.4): ~8 min average
 - Trend: Accelerating (focused component work with zero dependencies)
 
-*Updated: 2026-01-31 after completing 08-03*
+*Updated: 2026-01-31 after completing 08-04*
 
 ## Accumulated Context
 
@@ -44,6 +44,8 @@ Progress: [█████████░░░] 83% (10/12 plans complete)
 
 Recent decisions affecting v1.4 work:
 
+- [08-04]: Use city.id in useEffect dependency array (not entire city object) to prevent unnecessary refetches
+- [08-04]: Reset loading and error states at start of useEffect for clean city transitions
 - [08-03]: OpenStreetMap embed iframe for maps (zero dependencies, no API key required)
 - [08-03]: useMemo optimization for real-time city filtering performance
 - [08-03]: Filter by both city name and country for flexible search
@@ -70,10 +72,10 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-01-31 19:05:07 UTC
-Stopped at: Completed 08-03-PLAN.md (City selection components)
+Last session: 2026-01-31 19:07:53 UTC
+Stopped at: Completed 08-04-PLAN.md (Weather widget props)
 Resume file: None
-Next step: Plan 08-04 (Modal integration) or execute remaining Phase 8 work
+Next step: Plan 08-05 (App integration) to complete Phase 8
 
 ---
-*Last updated: 2026-01-31 after completing 08-03 execution*
+*Last updated: 2026-01-31 after completing 08-04 execution*
