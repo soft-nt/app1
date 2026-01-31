@@ -5,16 +5,15 @@
 See: .planning/PROJECT.md (updated 2026-01-31)
 
 **Core value:** A working React app that successfully demonstrates the GSD workflow from initialization through execution, with clean architecture that makes adding features straightforward.
-**Current focus:** All phases complete! Weather widget with real-time data integration.
+**Current focus:** v1.2 milestone complete. Ready to plan next milestone.
 
 ## Current Position
 
-Phase: 7 of 7 (Weather Widget Integration)
-Plan: 1 of 1 in current phase
-Status: Phase complete
-Last activity: 2026-01-31 — Completed 07-01-PLAN.md (Weather Widget Integration)
+Milestone: v1.2 Weather Widget complete
+Status: Between milestones
+Last activity: 2026-01-31 — Completed and archived v1.2 milestone
 
-Progress: [██████████] 100% (7/7 phases complete)
+Progress: 3 milestones shipped (v1.0, v1.1, v1.2)
 
 ## Performance Metrics
 
@@ -66,10 +65,10 @@ None - Switched to Open-Meteo API (no authentication required).
 
 ## Session Continuity
 
-Last session: 2026-01-31 17:20 UTC
-Stopped at: Completed 07-01-PLAN.md (Weather Widget Integration)
+Last session: 2026-01-31 18:30 UTC
+Stopped at: Completed v1.2 milestone (archived to milestones/)
 Resume file: None
-Next action: All phases complete! Run `/gsd:check-todos` to review remaining items or start new feature development.
+Next action: Run `/gsd:new-milestone` to start next milestone cycle (questioning → research → requirements → roadmap)
 
 ---
 *Last updated: 2026-01-31 after Phase 7 completion*
