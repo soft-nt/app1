@@ -46,7 +46,7 @@ Full history available in .planning/milestones/v1.0-ROADMAP.md.
 
 ### Pending Todos
 
-None yet.
+- 1 pending — /gsd:check-todos to review
 
 ### Blockers/Concerns
 
