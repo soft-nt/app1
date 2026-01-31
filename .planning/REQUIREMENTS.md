@@ -9,17 +9,17 @@ Requirements for weather widget milestone. Each maps to roadmap phases.
 
 ### Layout
 
-- [ ] **LAY-01**: Header displays date on left side
-- [ ] **LAY-02**: Header displays weather widget on right side
-- [ ] **LAY-03**: Header uses flexbox for horizontal arrangement
-- [ ] **LAY-04**: Header elements have appropriate spacing between them
+- [x] **LAY-01**: Header displays date on left side
+- [x] **LAY-02**: Header displays weather widget on right side
+- [x] **LAY-03**: Header uses flexbox for horizontal arrangement
+- [x] **LAY-04**: Header elements have appropriate spacing between them
 
 ### Weather Display
 
 - [ ] **WTH-01**: Current temperature displays in Celsius (°C)
 - [ ] **WTH-02**: Weather condition icon displays
 - [ ] **WTH-03**: Weather condition text displays (e.g., "Cloudy", "Sunny")
-- [ ] **WTH-04**: Location label "Geneva" displays
+- [x] **WTH-04**: Location label "Geneva" displays
 - [ ] **WTH-05**: Temperature shows with degree symbol and unit
 
 ### API Integration
@@ -76,11 +76,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 |-------------|-------|--------|
 | API-02 | Phase 5 | Complete |
 | API-05 | Phase 5 | Complete |
-| LAY-01 | Phase 6 | Pending |
-| LAY-02 | Phase 6 | Pending |
-| LAY-03 | Phase 6 | Pending |
-| LAY-04 | Phase 6 | Pending |
-| WTH-04 | Phase 6 | Pending |
+| LAY-01 | Phase 6 | Complete |
+| LAY-02 | Phase 6 | Complete |
+| LAY-03 | Phase 6 | Complete |
+| LAY-04 | Phase 6 | Complete |
+| WTH-04 | Phase 6 | Complete |
 | API-01 | Phase 7 | Pending |
 | API-03 | Phase 7 | Pending |
 | API-04 | Phase 7 | Pending |
@@ -101,4 +101,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 after Phase 5 execution*
+*Last updated: 2026-01-31 after Phase 6 execution*
