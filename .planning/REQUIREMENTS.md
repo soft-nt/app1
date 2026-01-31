@@ -9,9 +9,9 @@ Requirements for v1.1 Interactive Button milestone. Each maps to roadmap phases.
 
 ### Button
 
-- [ ] **BTN-01**: Green button with "Click me" text displays on page
-- [ ] **BTN-02**: Button is centered horizontally on page
-- [ ] **BTN-03**: Button is positioned in middle of page (below date)
+- [x] **BTN-01**: Green button with "Click me" text displays on page
+- [x] **BTN-02**: Button is centered horizontally on page
+- [x] **BTN-03**: Button is positioned in middle of page (below date)
 
 ### Interaction
 
@@ -43,9 +43,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| BTN-01 | Phase 3 | Pending |
-| BTN-02 | Phase 3 | Pending |
-| BTN-03 | Phase 3 | Pending |
+| BTN-01 | Phase 3 | Complete |
+| BTN-02 | Phase 3 | Complete |
+| BTN-03 | Phase 3 | Complete |
 | INT-01 | Phase 4 | Pending |
 | INT-02 | Phase 4 | Pending |
 | INT-03 | Phase 4 | Pending |
@@ -57,4 +57,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 after v1.1 roadmap creation*
+*Last updated: 2026-01-31 after phase 3 completion*
