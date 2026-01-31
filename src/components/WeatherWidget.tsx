@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import {
   WiDaySunny,
   WiCloud,
@@ -9,7 +10,8 @@ import {
   WiThunderstorm,
   WiFog
 } from 'react-icons/wi';
-import { WMO_WEATHER_CODES } from '../types/weather';
+import type { WeatherData } from '../types/weather';
+import { GENEVA_COORDS, WMO_WEATHER_CODES } from '../types/weather';
 
 function getWeatherIcon(code: number) {
   const iconSize = 24;
@@ -47,9 +49,59 @@ function getWeatherIcon(code: number) {
 }
 
 function WeatherWidget() {
+  const [weatherData, setWeatherData] = useState<WeatherData | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<Error | null>(null);
+
+  useEffect(() => {
+    let ignore = false;
+
+    async function fetchWeather() {
+      try {
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${GENEVA_COORDS.latitude}&longitude=${GENEVA_COORDS.longitude}&current=temperature_2m,weather_code`;
+        const response = await fetch(url);
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data: WeatherData = await response.json();
+
+        if (!ignore) {
+          setWeatherData(data);
+          setIsLoading(false);
+        }
+      } catch (err) {
+        if (!ignore) {
+          setError(err instanceof Error ? err : new Error('Failed to fetch weather'));
+          setIsLoading(false);
+        }
+      }
+    }
+
+    fetchWeather();
+
+    return () => { ignore = true; };
+  }, []);
+
+  if (isLoading) {
+    return <div className="weather-loading">Loading...</div>;
+  }
+
+  if (error) {
+    return <div className="weather-error">Weather unavailable</div>;
+  }
+
+  if (!weatherData) {
+    return null;
+  }
+
   return (
     <div className="weather-widget">
       <span className="weather-location">Geneva</span>
+      <span className="weather-icon">{getWeatherIcon(weatherData.current.weather_code)}</span>
+      <span className="weather-temp">{Math.round(weatherData.current.temperature_2m)}°C</span>
+      <span className="weather-condition">{WMO_WEATHER_CODES[weatherData.current.weather_code]}</span>
     </div>
   );
 }

@@ -21,11 +21,32 @@
 .weather-widget {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .weather-location {
   font-size: 1rem;
   font-weight: 500;
+}
+
+.weather-loading,
+.weather-error {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.weather-icon {
+  display: flex;
+  align-items: center;
+}
+
+.weather-temp {
+  font-weight: bold;
+}
+
+.weather-condition {
+  color: #666;
+  font-size: 0.9rem;
 }
 
 .button {
