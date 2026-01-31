@@ -5,15 +5,15 @@
 See: .planning/PROJECT.md (updated 2026-01-31)
 
 **Core value:** A working React app that successfully demonstrates the GSD workflow from initialization through execution, with clean architecture that makes adding features straightforward.
-**Current focus:** v1.2 milestone complete. Ready to plan next milestone.
+**Current focus:** v1.4 milestone - City Configuration (defining requirements)
 
 ## Current Position
 
-Milestone: v1.2 Weather Widget complete
-Status: Between milestones
-Last activity: 2026-01-31 — Completed and archived v1.2 milestone
+Milestone: v1.4 City Configuration
+Status: Defining requirements
+Last activity: 2026-01-31 — Started v1.4 milestone
 
-Progress: 3 milestones shipped (v1.0, v1.1, v1.2)
+Progress: 3 milestones shipped (v1.0, v1.1, v1.2), v1.4 in progress
 
 ## Performance Metrics
 
@@ -65,10 +65,10 @@ None - Switched to Open-Meteo API (no authentication required).
 
 ## Session Continuity
 
-Last session: 2026-01-31 18:30 UTC
-Stopped at: Completed v1.2 milestone (archived to milestones/)
+Last session: 2026-01-31
+Stopped at: Defining requirements for v1.4
 Resume file: None
-Next action: Run `/gsd:new-milestone` to start next milestone cycle (questioning → research → requirements → roadmap)
+Next action: Complete requirements definition → create roadmap
 
 ---
-*Last updated: 2026-01-31 after Phase 7 completion*
+*Last updated: 2026-01-31 after starting v1.4 milestone*

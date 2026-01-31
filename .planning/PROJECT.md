@@ -2,20 +2,25 @@
 
 ## What This Is
 
-A React web application that displays the current date with an interactive button that changes the date color randomly, plus a weather widget showing real-time Geneva temperature and conditions. Built to demonstrate the GSD workflow from initialization through multi-milestone execution on a simple, focused project with clean architecture.
+A React web application that displays the current date with an interactive button that changes the date color randomly, plus a configurable weather widget showing real-time temperature and conditions for user-selected cities. Built to demonstrate the GSD workflow from initialization through multi-milestone execution on a simple, focused project with clean architecture.
 
 ## Core Value
 
 A working React app that successfully demonstrates the GSD workflow from initialization through execution, with clean architecture that makes adding features straightforward.
 
-## Shipped v1.2 on 2026-01-31
+## Current Milestone: v1.4 City Configuration
 
-**Delivered:** Weather widget with real-time Geneva weather data
-- Header layout with date left, weather right (flexbox)
-- Temperature display in Celsius with weather icon and condition text
-- Open-Meteo API integration (no key required)
-- Loading and error state handling with race condition prevention
-- 3 phases, 3 plans, 6 tasks, ~1 hour execution
+**Goal:** Enable users to configure which city's weather is displayed, with persistence and enhanced location context
+
+**Target features:**
+- Settings panel/modal accessed via gear icon in header
+- Searchable dropdown with 20+ preset cities
+- localStorage persistence of selected city across page reloads
+- Timezone display showing local time or offset for selected city
+- City location indicator with map visual or coordinates
+- Enhanced weather widget to support dynamic city switching
+
+**Status:** Defining requirements → Ready to plan roadmap
 
 ## Requirements
 
@@ -48,7 +53,13 @@ A working React app that successfully demonstrates the GSD workflow from initial
 
 ### Active
 
-(None - ready to plan next milestone)
+**v1.4 City Configuration:**
+- Settings UI with modal/panel for configuration
+- Dropdown with 20+ preset cities (searchable/filterable)
+- localStorage persistence of city selection
+- Timezone display for selected city
+- City location indicator (map or coordinates)
+- Dynamic weather data fetching based on selected city
 
 ### Out of Scope
 
@@ -125,4 +136,4 @@ A working React app that successfully demonstrates the GSD workflow from initial
 | WMO weather code mapping | Open-Meteo uses standard WMO codes, mapped to 9 react-icons | ✓ Good - comprehensive icon coverage |
 
 ---
-*Last updated: 2026-01-31 after v1.2 milestone*
+*Last updated: 2026-01-31 after starting v1.4 milestone*
