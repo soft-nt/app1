@@ -92,10 +92,14 @@ Plans:
   8. Weather widget automatically updates to show data for newly selected city
   9. Loading state appears during city change with proper error handling for failed fetches
   10. Map visual in settings displays location of selected city with clean integration
-**Plans**: TBD
+**Plans**: 5 plans in 3 waves
 
 Plans:
-- [ ] 08-01: TBD
+- [ ] 08-01-PLAN.md — Data foundation (City type, city list, localStorage wrapper)
+- [ ] 08-02-PLAN.md — Settings modal shell (native dialog element)
+- [ ] 08-03-PLAN.md — City selection components (CitySelector, CityMap)
+- [ ] 08-04-PLAN.md — Weather widget city integration
+- [ ] 08-05-PLAN.md — Full integration and wiring
 
 ## Progress
 
@@ -111,4 +115,4 @@ Phases execute in numeric order: 8
 | 5. Header Layout | v1.2 | 1/1 | Complete | 2026-01-31 |
 | 6. Weather API Integration | v1.2 | 1/1 | Complete | 2026-01-31 |
 | 7. Weather Display | v1.2 | 1/1 | Complete | 2026-01-31 |
-| 8. City Configuration | v1.4 | 0/TBD | Not started | - |
+| 8. City Configuration | v1.4 | 0/5 | Planned | - |
