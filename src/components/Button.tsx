@@ -5,7 +5,7 @@ type ButtonProps = {
 function Button({ onClick }: ButtonProps) {
   return (
     <button className="button" onClick={onClick}>
-      Click me
+      Click me!
     </button>
   );
 }
