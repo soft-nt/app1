@@ -1,73 +1,107 @@
-# React + TypeScript + Vite
+# Date Display App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web application that displays the current date with an interactive color-changing button, plus a configurable weather widget showing real-time temperature and conditions for user-selected cities.
 
-Currently, two official plugins are available:
+Built to demonstrate the GSD workflow from initialization through multi-milestone execution on a simple, focused project with clean architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Dynamic Date Display**: Current date displayed using native `Intl.DateTimeFormat` (zero dependencies)
+- **Interactive Color Button**: Click to randomly change the date text color
+- **Real-Time Weather Widget**: Live temperature and weather conditions from Open-Meteo API
+- **City Configuration**: Choose from 25 preset cities with searchable dropdown
+- **Location Visualization**: Interactive OpenStreetMap embed showing selected city
+- **Persistent Settings**: City selection saved to localStorage with graceful error handling
+- **Responsive Layout**: Clean flexbox-based header with date and weather side-by-side
+- **Accessible UI**: Native dialog element for settings modal with built-in focus management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React** 19.2.3 with TypeScript 5.9.3
+- **Vite** 7.3.1 for build tooling and dev server
+- **ESLint** 9 with typescript-eslint
+- **react-icons** 5.5.0 for weather condition icons
+- **Open-Meteo API** for weather data (no API key required)
+- **OpenStreetMap** for city location maps (no API key required)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Prerequisites
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Node.js (version 18 or higher recommended)
+- npm or yarn package manager
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Installation
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone the repository and install dependencies:
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Start the development server with hot module replacement:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+The app will be available at `http://localhost:5173` (or another port if 5173 is busy).
+
+## Production Build
+
+Build the app for production:
+
+```bash
+npm run build
+```
+
+The optimized production files will be in the `dist/` directory.
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Linting
+
+Run ESLint to check code quality:
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Header.tsx           # Main header with date and weather
+│   ├── DateDisplay.tsx      # Date component with dynamic color
+│   ├── WeatherWidget.tsx    # Weather display with API integration
+│   ├── Button.tsx           # Interactive color-changing button
+│   ├── SettingsModal.tsx    # Native dialog modal for settings
+│   ├── CitySelector.tsx     # Searchable city dropdown
+│   └── CityMap.tsx          # OpenStreetMap location embed
+├── types/
+│   ├── weather.ts           # TypeScript types for Open-Meteo API
+│   └── city.ts              # City type with coordinates
+├── data/
+│   └── cities.ts            # 25 preset cities with lat/lon
+├── utils/
+│   └── storage.ts           # localStorage wrapper with error handling
+├── App.tsx                  # Main application with state management
+└── main.tsx                 # React entry point
+```
+
+## Version History
+
+- **v1.4** (2026-01-31): City configuration with settings modal, city selector, map integration, and localStorage persistence
+- **v1.3** (2026-01-31): Skipped in roadmap
+- **v1.2** (2026-01-31): Weather widget with Open-Meteo API integration, loading/error states, and header layout
+- **v1.1** (2026-01-31): Interactive button with random color generation
+- **v1.0** (2026-01-31): Initial MVP with React + Vite setup and date display
+
+## License
+
+This is an experimental project built for demonstrating the GSD workflow.
