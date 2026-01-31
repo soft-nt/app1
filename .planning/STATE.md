@@ -4,56 +4,51 @@
 
 See: .planning/PROJECT.md (updated 2026-01-31)
 
-**Core value:** A working React app that successfully demonstrates the GSD workflow from initialization through execution, with clean architecture that makes adding features straightforward.
-**Current focus:** v1.4 milestone - City Configuration (defining requirements)
+**Core value:** A working React app that successfully demonstrates the GSD workflow from initialization through execution, with clean architecture that makes adding features straightforward
+**Current focus:** Phase 8 - City Configuration (v1.4 milestone)
 
 ## Current Position
 
-Milestone: v1.4 City Configuration
-Status: Defining requirements
-Last activity: 2026-01-31 — Started v1.4 milestone
+Phase: 8 of 8 (City Configuration)
+Plan: Ready to plan Phase 8
+Status: Ready to plan
+Last activity: 2026-01-31 — Roadmap revised for v1.4 milestone (combined all features into single phase)
 
-Progress: 3 milestones shipped (v1.0, v1.1, v1.2), v1.4 in progress
+Progress: [███████░] 88% (7/8 phases complete)
 
 ## Performance Metrics
 
 **Velocity:**
 - Total plans completed: 7
-- Average duration: 1.3 min
-- Total execution time: 0.2 hours
+- Average duration: ~49 min/plan
+- Total execution time: ~5.7 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1. Project Setup | 1 | 3 min | 3 min |
-| 2. Date Display | 1 | 1 min | 1 min |
-| 3. Button UI | 1 | 1 min | 1 min |
-| 4. Interactive Color Change | 1 | 1 min | 1 min |
-| 5. Project Setup & Environment | 1 | 1 min | 1 min |
-| 6. Layout Integration | 1 | 1 min | 1 min |
-| 7. Weather Widget Integration | 1 | 1 min | 1 min |
+| 1-2 (v1.0) | 2 | ~45 min | ~23 min |
+| 3-4 (v1.1) | 2 | ~4.7 hrs | ~141 min |
+| 5-7 (v1.2) | 3 | ~65 min | ~22 min |
 
 **Recent Trend:**
-- Last 5 plans: 1min, 1min, 1min, 1min, 1min
-- Trend: Stable (consistent 1-minute execution)
+- Last 3 plans (v1.2): ~22 min average
+- Trend: Improving (faster execution on focused features)
 
-*Updated after each plan completion*
+*Updated: 2026-01-31 after v1.4 roadmap revision*
 
 ## Accumulated Context
 
 ### Decisions
 
-Decisions are logged in PROJECT.md Key Decisions table.
-Recent decisions affecting current work:
+Recent decisions affecting v1.4 work:
 
-- v1.4: Use type-only import for WeatherData to satisfy verbatimModuleSyntax (Phase 7)
-- v1.4: Implement race condition prevention with ignore flag in useEffect (Phase 7)
-- v1.4: Use three-state pattern for async operations (loading + error + data) (Phase 7)
-- v1.3: Use flexbox with space-between for header layout (Phase 6)
-- v1.3: Create placeholder WeatherWidget for Phase 7 integration (Phase 6)
-- v1.2: Switch to Open-Meteo API (no API key, CORS-enabled, production-ready)
-- v1.2: Use Vite VITE_ prefix pattern for client-side environment variable exposure
+- [v1.2]: Open-Meteo API chosen (no key required, 10k req/day free) — establishes weather data source
+- [v1.2]: Three-state async pattern (loading + error + data) — provides pattern for city switching UX
+- [v1.2]: Flexbox header layout — provides location for settings icon placement
+- [v1.0]: src/components/ directory structure — guides where settings modal components live
+
+See PROJECT.md Key Decisions table for complete history.
 
 ### Pending Todos
 
@@ -61,14 +56,14 @@ Recent decisions affecting current work:
 
 ### Blockers/Concerns
 
-None - Switched to Open-Meteo API (no authentication required).
+None yet.
 
 ## Session Continuity
 
 Last session: 2026-01-31
-Stopped at: Defining requirements for v1.4
+Stopped at: Roadmap revised for v1.4 (combined all features into Phase 8), ready to plan Phase 8
 Resume file: None
-Next action: Complete requirements definition → create roadmap
+Next step: Run `/gsd:plan-phase 8` to create execution plan
 
 ---
-*Last updated: 2026-01-31 after starting v1.4 milestone*
+*Last updated: 2026-01-31 after v1.4 roadmap revision (combined all features into Phase 8)*

@@ -90,13 +90,38 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (To be populated by roadmap) | | |
+| SETT-01 | Phase 8 | Pending |
+| SETT-02 | Phase 8 | Pending |
+| SETT-03 | Phase 8 | Pending |
+| SETT-04 | Phase 8 | Pending |
+| SETT-05 | Phase 8 | Pending |
+| SETT-06 | Phase 8 | Pending |
+| CITY-01 | Phase 8 | Pending |
+| CITY-02 | Phase 8 | Pending |
+| CITY-03 | Phase 8 | Pending |
+| CITY-04 | Phase 8 | Pending |
+| CITY-05 | Phase 8 | Pending |
+| CITY-06 | Phase 8 | Pending |
+| STORE-01 | Phase 8 | Pending |
+| STORE-02 | Phase 8 | Pending |
+| STORE-03 | Phase 8 | Pending |
+| STORE-04 | Phase 8 | Pending |
+| INTEG-01 | Phase 8 | Pending |
+| INTEG-02 | Phase 8 | Pending |
+| INTEG-03 | Phase 8 | Pending |
+| INTEG-04 | Phase 8 | Pending |
+| INTEG-05 | Phase 8 | Pending |
+| INTEG-06 | Phase 8 | Pending |
+| INTEG-07 | Phase 8 | Pending |
+| MAP-01 | Phase 8 | Pending |
+| MAP-02 | Phase 8 | Pending |
+| MAP-03 | Phase 8 | Pending |
 
 **Coverage:**
-- v1.4 requirements: 20 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 20 ⚠️
+- v1.4 requirements: 26 total
+- Mapped to phases: 26/26 (100%)
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 after initial definition*
+*Last updated: 2026-01-31 after roadmap revision (combined all v1.4 into Phase 8)*
