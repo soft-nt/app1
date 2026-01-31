@@ -62,3 +62,43 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.settings-modal {
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.settings-modal::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  padding: 1.5rem;
+  position: relative;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  color: inherit;
+  opacity: 0.6;
+}
+
+.modal-close-btn:hover {
+  opacity: 1;
+}
+
+.modal-header h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+}
