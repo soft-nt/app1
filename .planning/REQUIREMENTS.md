@@ -43,9 +43,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SETUP-01 | Phase 1 | Pending |
-| SETUP-02 | Phase 1 | Pending |
-| SETUP-03 | Phase 1 | Pending |
+| SETUP-01 | Phase 1 | Complete |
+| SETUP-02 | Phase 1 | Complete |
+| SETUP-03 | Phase 1 | Complete |
 | DISP-01 | Phase 2 | Pending |
 | DISP-02 | Phase 2 | Pending |
 | DISP-03 | Phase 2 | Pending |

@@ -12,7 +12,7 @@ This roadmap delivers a working React application that displays the current date
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Project Setup** - Initialize React app with Vite and verify build tools
+- [x] **Phase 1: Project Setup** - Initialize React app with Vite and verify build tools
 - [ ] **Phase 2: Date Display** - Implement date display with minimal styling
 
 ## Phase Details
@@ -28,7 +28,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 1 plan
 
 Plans:
-- [ ] 01-01-PLAN.md — Scaffold Vite+React+TS project and verify dev/build tools
+- [x] 01-01-PLAN.md — Scaffold Vite+React+TS project and verify dev/build tools
 
 ### Phase 2: Date Display
 **Goal**: User sees current date on the page
@@ -50,5 +50,5 @@ Phases execute in numeric order: 1 → 2
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Project Setup | 0/1 | Planned | - |
+| 1. Project Setup | 1/1 | Complete | 2026-01-31 |
 | 2. Date Display | 0/TBD | Not started | - |
