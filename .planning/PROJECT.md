@@ -21,7 +21,14 @@ A working React app that successfully demonstrates the GSD workflow from initial
 
 ### Active
 
-(Next milestone requirements will be defined during `/gsd:new-milestone`)
+**Current Milestone: v1.1 Interactive Button**
+
+**Goal:** Add interactive button that changes date color randomly
+
+**Target features:**
+- Green "Click me" button centered on page
+- Click handler changes date text color
+- Random color generation on each click
 
 ### Out of Scope
 
@@ -69,4 +76,4 @@ A working React app that successfully demonstrates the GSD workflow from initial
 | src/components/ directory structure | Standard React pattern for component organization | ✓ Good - clear structure |
 
 ---
-*Last updated: 2026-01-31 after v1.0 milestone*
+*Last updated: 2026-01-31 after milestone v1.1 started*
