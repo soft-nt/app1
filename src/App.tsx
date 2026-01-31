@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import DateDisplay from './components/DateDisplay'
+import Header from './components/Header'
 import Button from './components/Button'
 import './App.css'
 
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <DateDisplay color={color} />
+      <Header color={color} />
       <Button onClick={handleColorChange} />
     </>
   )

@@ -2,22 +2,34 @@
 
 ## What This Is
 
-A React web application that displays the current date with an interactive button that changes the date color randomly. Built to demonstrate the GSD workflow from initialization through multi-milestone execution on a simple, focused project with clean architecture.
+A React web application that displays the current date with an interactive button that changes the date color randomly, plus a weather widget showing real-time Geneva temperature and conditions. Built to demonstrate the GSD workflow from initialization through multi-milestone execution on a simple, focused project with clean architecture.
 
 ## Core Value
 
 A working React app that successfully demonstrates the GSD workflow from initialization through execution, with clean architecture that makes adding features straightforward.
 
+## Shipped v1.2 on 2026-01-31
+
+**Delivered:** Weather widget with real-time Geneva weather data
+- Header layout with date left, weather right (flexbox)
+- Temperature display in Celsius with weather icon and condition text
+- Open-Meteo API integration (no key required)
+- Loading and error state handling with race condition prevention
+- 3 phases, 3 plans, 6 tasks, ~1 hour execution
+
 ## Requirements
 
 ### Validated
 
+**v1.0 MVP:**
 - ✓ **React app initialized with Vite** — v1.0 (SETUP-01)
 - ✓ **Development server runs locally** — v1.0 (SETUP-02)
 - ✓ **Project can build for production** — v1.0 (SETUP-03)
 - ✓ **Current date displays at top of page** — v1.0 (DISP-01)
 - ✓ **Date updates when page loads** — v1.0 (DISP-02)
 - ✓ **Clean, minimal styling applied** — v1.0 (DISP-03)
+
+**v1.1 Interactive Button:**
 - ✓ **Green button with "Click me" text displays on page** — v1.1 (BTN-01)
 - ✓ **Button is centered horizontally on page** — v1.1 (BTN-02)
 - ✓ **Button is positioned below date display** — v1.1 (BTN-03)
@@ -25,9 +37,18 @@ A working React app that successfully demonstrates the GSD workflow from initial
 - ✓ **Random color is generated on each click** — v1.1 (INT-02)
 - ✓ **Date text color updates to random color when button clicked** — v1.1 (INT-03)
 
+**v1.2 Weather Widget:**
+- ✓ **Header layout with date left, weather right** — v1.2 (LAY-01-04)
+- ✓ **Current temperature displays in Celsius with degree symbol** — v1.2 (WTH-01, WTH-05)
+- ✓ **Weather condition icon and text display** — v1.2 (WTH-02, WTH-03)
+- ✓ **Geneva location label displays** — v1.2 (WTH-04)
+- ✓ **Weather API integration with Open-Meteo** — v1.2 (API-01, API-03, API-04)
+- ✓ **TypeScript types for weather data** — v1.2 (API-05)
+- ✓ **Loading and error states with race prevention** — v1.2 (STA-01-05)
+
 ### Active
 
-(No active requirements — ready for next milestone planning)
+(None - ready to plan next milestone)
 
 ### Out of Scope
 
@@ -39,17 +60,21 @@ A working React app that successfully demonstrates the GSD workflow from initial
 
 ## Context
 
+**Shipped v1.2 on 2026-01-31:**
+- Weather widget with real-time Open-Meteo API integration
+- WMO weather code to react-icons mapping (9 weather conditions)
+- Three-state async pattern with race condition prevention
+- 408 lines of code (TypeScript/CSS in src/)
+- 7 phases total, 7 plans, 17 tasks across three milestones
+- ~5.7 hours total development time
+
 **Shipped v1.1 on 2026-01-31:**
 - Interactive button with color-changing functionality
 - React state management with useState hook
-- 168 lines of code (TypeScript/CSS in src/)
-- 4 phases total, 4 plans, 9 tasks across both milestones
 - Component prop patterns with TypeScript type safety established
 
 **Shipped v1.0 on 2026-01-31:**
 - React 19.2 + Vite 7.3.1 + TypeScript 5.9
-- 118 lines of code (TypeScript/CSS in src/)
-- 2 phases, 2 plans, 5 tasks
 - Zero dependencies for date formatting (native Intl.DateTimeFormat)
 - Production-ready build pipeline verified
 
@@ -57,12 +82,17 @@ A working React app that successfully demonstrates the GSD workflow from initial
 - React 19.2.3 with TypeScript 5.9.3
 - Vite 7.3.1 for build tooling
 - ESLint 9 with typescript-eslint
+- react-icons 5.5.0 (weather icons)
+- Open-Meteo API (weather data, no key required)
 - Native Intl.DateTimeFormat for date display
-- React Hooks (useState) for state management
+- React Hooks (useState, useEffect) for state management
 
 **Component Structure:**
+- `src/components/Header.tsx` — Flexbox layout container with date left, weather right
 - `src/components/DateDisplay.tsx` — Date display component with color prop
+- `src/components/WeatherWidget.tsx` — Weather widget with API fetch, loading/error states
 - `src/components/Button.tsx` — Interactive button component
+- `src/types/weather.ts` — TypeScript interfaces for Open-Meteo API
 - `src/App.tsx` — Main application component with state management
 - Standard Vite project structure
 
@@ -87,6 +117,12 @@ A working React app that successfully demonstrates the GSD workflow from initial
 | Hex color format (#RRGGBB) | Universal browser support, simple random generation | ✓ Good - straightforward |
 | Inline styles for dynamic colors | Runtime color changes without CSS class overhead | ✓ Good - appropriate for dynamic values |
 | Lift state up to App.tsx | Single source of truth for color state shared by components | ✓ Good - clean data flow |
+| Open-Meteo for weather API | No API key required, excellent CORS support, production-ready, 10k req/day free | ✓ Good - eliminates auth complexity |
+| Type-only imports for types | TypeScript verbatimModuleSyntax requires explicit type imports | ✓ Good - satisfies strict TS config |
+| Three-state async pattern | Separate loading, error, data states instead of single nullable state | ✓ Good - clear conditional rendering |
+| useEffect cleanup with ignore flag | Prevents race conditions from stale async updates after unmount | ✓ Good - follows React best practices |
+| Flexbox with space-between for header | Natural left/right positioning without absolute/float hacks | ✓ Good - responsive and maintainable |
+| WMO weather code mapping | Open-Meteo uses standard WMO codes, mapped to 9 react-icons | ✓ Good - comprehensive icon coverage |
 
 ---
-*Last updated: 2026-01-31 after v1.1 milestone*
+*Last updated: 2026-01-31 after v1.2 milestone*
