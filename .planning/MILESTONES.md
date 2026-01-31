@@ -1,5 +1,33 @@
 # Project Milestones: Date Display App
 
+## v1.4 City Configuration (Shipped: 2026-01-31)
+
+**Delivered:** Configurable weather widget with searchable city selector, interactive map, and localStorage persistence across 25 global cities
+
+**Phases completed:** 8 (5 plans total)
+
+**Key accomplishments:**
+
+- City data foundation with 25 preset cities spanning global timezones, avoiding geocoding API dependencies
+- Native HTML5 dialog modal with zero dependencies, built-in accessibility, focus trap, and backdrop handling
+- Real-time city search with useMemo-optimized filtering by city name or country, scrollable results with selection indicators
+- OpenStreetMap embed integration with lazy loading for geographic context without external libraries or API keys
+- Dynamic weather widget refactored to accept city prop with automatic refetch and race condition prevention
+- localStorage integration with graceful error handling for private browsing modes and quota limits
+
+**Stats:**
+
+- 19 files modified (1412 insertions, 59 deletions)
+- 831 lines of TypeScript/CSS (total codebase)
+- 1 phase, 5 plans, 13 tasks
+- ~9 hours from start to ship (2026-01-31, 11:02 → 20:22)
+
+**Git range:** `feat(08-01)` → `docs(08)`
+
+**What's next:** All v1.4 features complete. City configuration fully functional with persistence. Ready for next milestone planning.
+
+---
+
 ## v1.2 Weather Widget (Shipped: 2026-01-31)
 
 **Delivered:** Weather widget in header displaying real-time Geneva temperature and conditions from Open-Meteo API with loading/error states

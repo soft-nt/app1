@@ -8,19 +8,11 @@ A React web application that displays the current date with an interactive butto
 
 A working React app that successfully demonstrates the GSD workflow from initialization through execution, with clean architecture that makes adding features straightforward.
 
-## Current Milestone: v1.4 City Configuration
+## Current State
 
-**Goal:** Enable users to configure which city's weather is displayed, with persistence and enhanced location context
-
-**Target features:**
-- Settings panel/modal accessed via gear icon in header
-- Searchable dropdown with 20+ preset cities
-- localStorage persistence of selected city across page reloads
-- Timezone display showing local time or offset for selected city
-- City location indicator with map visual or coordinates
-- Enhanced weather widget to support dynamic city switching
-
-**Status:** Defining requirements → Ready to plan roadmap
+**Last Shipped:** v1.4 City Configuration (2026-01-31)
+**Codebase:** 831 lines TypeScript/CSS across 8 phases, 12 plans complete
+**Status:** Milestone complete, ready for next milestone planning
 
 ## Requirements
 
@@ -51,15 +43,16 @@ A working React app that successfully demonstrates the GSD workflow from initial
 - ✓ **TypeScript types for weather data** — v1.2 (API-05)
 - ✓ **Loading and error states with race prevention** — v1.2 (STA-01-05)
 
+**v1.4 City Configuration:**
+- ✓ **Settings UI with gear icon and modal** — v1.4 (native dialog element, zero dependencies)
+- ✓ **Searchable city dropdown with 25 cities** — v1.4 (real-time filtering, useMemo optimization)
+- ✓ **localStorage persistence of city selection** — v1.4 (graceful error handling for private browsing)
+- ✓ **Interactive map showing city location** — v1.4 (OpenStreetMap embed, lazy loading, no API key)
+- ✓ **Dynamic weather fetching for selected city** — v1.4 (automatic refetch, race condition prevention)
+
 ### Active
 
-**v1.4 City Configuration:**
-- Settings UI with modal/panel for configuration
-- Dropdown with 20+ preset cities (searchable/filterable)
-- localStorage persistence of city selection
-- Timezone display for selected city
-- City location indicator (map or coordinates)
-- Dynamic weather data fetching based on selected city
+(No active requirements - ready for next milestone)
 
 ### Out of Scope
 
@@ -71,13 +64,16 @@ A working React app that successfully demonstrates the GSD workflow from initial
 
 ## Context
 
-**Shipped v1.2 on 2026-01-31:**
-- Weather widget with real-time Open-Meteo API integration
-- WMO weather code to react-icons mapping (9 weather conditions)
-- Three-state async pattern with race condition prevention
-- 408 lines of code (TypeScript/CSS in src/)
-- 7 phases total, 7 plans, 17 tasks across three milestones
-- ~5.7 hours total development time
+**Shipped v1.4 on 2026-01-31:**
+- City configuration with 25 preset cities and coordinates
+- Settings modal with native dialog element (zero dependencies)
+- Searchable city selector with real-time filtering
+- OpenStreetMap integration for location visualization
+- localStorage persistence with error handling
+- Dynamic weather widget accepting city prop
+- 831 lines of code (TypeScript/CSS in src/)
+- 8 phases total, 12 plans, 26 tasks across four milestones
+- ~15 hours total development time
 
 **Shipped v1.1 on 2026-01-31:**
 - Interactive button with color-changing functionality
@@ -99,12 +95,18 @@ A working React app that successfully demonstrates the GSD workflow from initial
 - React Hooks (useState, useEffect) for state management
 
 **Component Structure:**
-- `src/components/Header.tsx` — Flexbox layout container with date left, weather right
+- `src/components/Header.tsx` — Flexbox layout with settings modal integration
 - `src/components/DateDisplay.tsx` — Date display component with color prop
-- `src/components/WeatherWidget.tsx` — Weather widget with API fetch, loading/error states
+- `src/components/WeatherWidget.tsx` — Weather widget accepting city prop, dynamic fetching
 - `src/components/Button.tsx` — Interactive button component
+- `src/components/SettingsModal.tsx` — Native dialog modal with accessibility
+- `src/components/CitySelector.tsx` — Searchable city dropdown with filtering
+- `src/components/CityMap.tsx` — OpenStreetMap embed for location display
 - `src/types/weather.ts` — TypeScript interfaces for Open-Meteo API
-- `src/App.tsx` — Main application component with state management
+- `src/types/city.ts` — City type with coordinates
+- `src/data/cities.ts` — 25 preset cities with coordinates
+- `src/utils/storage.ts` — localStorage wrapper with error handling
+- `src/App.tsx` — Main application with city state management
 - Standard Vite project structure
 
 ## Constraints
@@ -134,6 +136,11 @@ A working React app that successfully demonstrates the GSD workflow from initial
 | useEffect cleanup with ignore flag | Prevents race conditions from stale async updates after unmount | ✓ Good - follows React best practices |
 | Flexbox with space-between for header | Natural left/right positioning without absolute/float hacks | ✓ Good - responsive and maintainable |
 | WMO weather code mapping | Open-Meteo uses standard WMO codes, mapped to 9 react-icons | ✓ Good - comprehensive icon coverage |
+| Native dialog for modals | Zero dependencies, built-in accessibility, focus trap | ✓ Good - modern web standards |
+| Hardcoded city coordinates | Avoids geocoding API, eliminates external dependency | ✓ Good - simpler, more reliable |
+| OpenStreetMap embed | No API key required, lazy loading, no external library | ✓ Good - zero configuration |
+| useMemo for filtering | Prevents unnecessary recalculations on every render | ✓ Good - performance optimization |
+| Store city ID in localStorage | Minimal storage footprint, fast lookup from CITIES array | ✓ Good - efficient persistence |
 
 ---
-*Last updated: 2026-01-31 after starting v1.4 milestone*
+*Last updated: 2026-01-31 after completing v1.4 milestone*
