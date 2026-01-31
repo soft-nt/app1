@@ -25,10 +25,10 @@ Requirements for weather widget milestone. Each maps to roadmap phases.
 ### API Integration
 
 - [ ] **API-01**: App integrates with OpenWeatherMap API
-- [ ] **API-02**: API key stored securely in environment variable
+- [x] **API-02**: API key stored securely in environment variable
 - [ ] **API-03**: Weather data fetched on page load (component mount)
 - [ ] **API-04**: API response parsed correctly for Geneva location
-- [ ] **API-05**: TypeScript types defined for API response
+- [x] **API-05**: TypeScript types defined for API response
 
 ### State Management
 
@@ -74,8 +74,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| API-02 | Phase 5 | Pending |
-| API-05 | Phase 5 | Pending |
+| API-02 | Phase 5 | Complete |
+| API-05 | Phase 5 | Complete |
 | LAY-01 | Phase 6 | Pending |
 | LAY-02 | Phase 6 | Pending |
 | LAY-03 | Phase 6 | Pending |
@@ -101,4 +101,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 after roadmap creation*
+*Last updated: 2026-01-31 after Phase 5 execution*

@@ -62,7 +62,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 05-01: Environment configuration and TypeScript types
+- [x] 05-01: Environment configuration and TypeScript types
 
 #### Phase 6: Layout Integration
 **Goal**: Header structure displays date left and weather widget placeholder right
@@ -105,9 +105,9 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 | 2. Date Display | v1.0 | 1/1 | Complete | 2026-01-31 |
 | 3. Button Component | v1.1 | 1/1 | Complete | 2026-01-31 |
 | 4. Color Interaction | v1.1 | 1/1 | Complete | 2026-01-31 |
-| 5. Project Setup & Environment | v1.2 | 0/1 | Not started | - |
+| 5. Project Setup & Environment | v1.2 | 1/1 | Complete | 2026-01-31 |
 | 6. Layout Integration | v1.2 | 0/TBD | Not started | - |
 | 7. API Integration & Weather Display | v1.2 | 0/TBD | Not started | - |
 
 ---
-*Last updated: 2026-01-31 --- Phase 5 planned*
+*Last updated: 2026-01-31 --- Phase 5 complete*
