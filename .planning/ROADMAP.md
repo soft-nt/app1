@@ -5,7 +5,7 @@
 - ✅ **v1.0 MVP** - Phases 1-2 (shipped 2026-01-31)
 - ✅ **v1.1 Interactive Button** - Phases 3-4 (shipped 2026-01-31)
 - ✅ **v1.2 Weather Widget** - Phases 5-7 (shipped 2026-01-31)
-- 🚧 **v1.4 City Configuration** - Phase 8 (in progress)
+- ✅ **v1.4 City Configuration** - Phase 8 (shipped 2026-01-31)
 
 ## Phases
 
@@ -73,11 +73,12 @@ Plans:
 
 </details>
 
-### 🚧 v1.4 City Configuration (In Progress)
+<details>
+<summary>✅ v1.4 City Configuration (Phase 8) - SHIPPED 2026-01-31</summary>
 
 **Milestone Goal:** Enable users to configure which city's weather is displayed, with persistence and enhanced location context
 
-#### Phase 8: City Configuration
+### Phase 8: City Configuration
 **Goal**: User can configure, persist, and display weather for multiple cities with location context
 **Depends on**: Phase 7
 **Requirements**: SETT-01, SETT-02, SETT-03, SETT-04, SETT-05, SETT-06, CITY-01, CITY-02, CITY-03, CITY-04, CITY-05, CITY-06, STORE-01, STORE-02, STORE-03, STORE-04, INTEG-01, INTEG-02, INTEG-03, INTEG-04, INTEG-05, INTEG-06, INTEG-07, MAP-01, MAP-02, MAP-03 (26 requirements)
@@ -95,11 +96,13 @@ Plans:
 **Plans**: 5 plans in 3 waves
 
 Plans:
-- [ ] 08-01-PLAN.md — Data foundation (City type, city list, localStorage wrapper)
-- [ ] 08-02-PLAN.md — Settings modal shell (native dialog element)
-- [ ] 08-03-PLAN.md — City selection components (CitySelector, CityMap)
-- [ ] 08-04-PLAN.md — Weather widget city integration
-- [ ] 08-05-PLAN.md — Full integration and wiring
+- [x] 08-01-PLAN.md — Data foundation (City type, city list, localStorage wrapper)
+- [x] 08-02-PLAN.md — Settings modal shell (native dialog element)
+- [x] 08-03-PLAN.md — City selection components (CitySelector, CityMap)
+- [x] 08-04-PLAN.md — Weather widget city integration
+- [x] 08-05-PLAN.md — Full integration and wiring
+
+</details>
 
 ## Progress
 
@@ -115,4 +118,4 @@ Phases execute in numeric order: 8
 | 5. Header Layout | v1.2 | 1/1 | Complete | 2026-01-31 |
 | 6. Weather API Integration | v1.2 | 1/1 | Complete | 2026-01-31 |
 | 7. Weather Display | v1.2 | 1/1 | Complete | 2026-01-31 |
-| 8. City Configuration | v1.4 | 0/5 | Planned | - |
+| 8. City Configuration | v1.4 | 5/5 | Complete | 2026-01-31 |
