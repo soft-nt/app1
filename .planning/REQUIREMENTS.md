@@ -43,18 +43,18 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| BTN-01 | TBD | Pending |
-| BTN-02 | TBD | Pending |
-| BTN-03 | TBD | Pending |
-| INT-01 | TBD | Pending |
-| INT-02 | TBD | Pending |
-| INT-03 | TBD | Pending |
+| BTN-01 | Phase 3 | Pending |
+| BTN-02 | Phase 3 | Pending |
+| BTN-03 | Phase 3 | Pending |
+| INT-01 | Phase 4 | Pending |
+| INT-02 | Phase 4 | Pending |
+| INT-03 | Phase 4 | Pending |
 
 **Coverage:**
 - v1.1 requirements: 6 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 6 ⚠️
+- Mapped to phases: 6 (100%)
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 after initial definition*
+*Last updated: 2026-01-31 after v1.1 roadmap creation*
