@@ -76,7 +76,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 06-01: Header layout with date left and weather placeholder right
+- [x] 06-01: Header layout with date left and weather placeholder right
 
 #### Phase 7: API Integration & Weather Display
 **Goal**: Working weather data fetched and displayed with loading/error states
@@ -89,10 +89,10 @@ Plans:
   4. Loading state displays while fetching (user sees feedback, not blank widget)
   5. Error state displays if fetch fails (user-friendly message, not crash)
   6. Race conditions prevented with useEffect cleanup (no stale data overwrites)
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 07-01: TBD
+- [ ] 07-01-PLAN.md — Weather fetch with react-icons, loading/error states, and display
 
 ## Progress
 
@@ -107,7 +107,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 | 4. Color Interaction | v1.1 | 1/1 | Complete | 2026-01-31 |
 | 5. Project Setup & Environment | v1.2 | 1/1 | Complete | 2026-01-31 |
 | 6. Layout Integration | v1.2 | 1/1 | Complete | 2026-01-31 |
-| 7. API Integration & Weather Display | v1.2 | 0/TBD | Not started | - |
+| 7. API Integration & Weather Display | v1.2 | 0/1 | Not started | - |
 
 ---
-*Last updated: 2026-01-31 --- Phase 6 complete*
+*Last updated: 2026-01-31 --- Phase 7 planned*
