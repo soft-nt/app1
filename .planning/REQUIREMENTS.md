@@ -9,15 +9,15 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Setup
 
-- [ ] **SETUP-01**: React app initialized with Vite
-- [ ] **SETUP-02**: Development server runs locally
-- [ ] **SETUP-03**: Project can build for production
+- [x] **SETUP-01**: React app initialized with Vite
+- [x] **SETUP-02**: Development server runs locally
+- [x] **SETUP-03**: Project can build for production
 
 ### Display
 
-- [ ] **DISP-01**: Current date displays at top of page
-- [ ] **DISP-02**: Date updates when page loads
-- [ ] **DISP-03**: Clean, minimal styling applied
+- [x] **DISP-01**: Current date displays at top of page
+- [x] **DISP-02**: Date updates when page loads
+- [x] **DISP-03**: Clean, minimal styling applied
 
 ## v2 Requirements
 
@@ -46,9 +46,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SETUP-01 | Phase 1 | Complete |
 | SETUP-02 | Phase 1 | Complete |
 | SETUP-03 | Phase 1 | Complete |
-| DISP-01 | Phase 2 | Pending |
-| DISP-02 | Phase 2 | Pending |
-| DISP-03 | Phase 2 | Pending |
+| DISP-01 | Phase 2 | Complete |
+| DISP-02 | Phase 2 | Complete |
+| DISP-03 | Phase 2 | Complete |
 
 **Coverage:**
 - v1 requirements: 6 total
@@ -57,4 +57,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-31*
-*Last updated: 2026-01-31 after roadmap creation*
+*Last updated: 2026-01-31 after Phase 2 execution*
