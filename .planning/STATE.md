@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-01-31)
 
 **Core value:** A working React app that successfully demonstrates the GSD workflow from initialization through execution, with clean architecture that makes adding features straightforward.
-**Current focus:** Planning next milestone
+**Current focus:** v1.2 Weather Widget - defining requirements
 
 ## Current Position
 
-Phase: Not started
-Plan: Not started
-Status: Ready to plan next milestone
-Last activity: 2026-01-31 — v1.1 milestone complete
+Phase: Not started (defining requirements)
+Plan: —
+Status: Defining requirements
+Last activity: 2026-01-31 — Milestone v1.2 started
 
-Progress: Awaiting next milestone roadmap
+Progress: Gathering requirements for Weather Widget
 
 ## Performance Metrics
 

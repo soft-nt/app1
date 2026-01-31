@@ -8,6 +8,16 @@ A React web application that displays the current date with an interactive butto
 
 A working React app that successfully demonstrates the GSD workflow from initialization through execution, with clean architecture that makes adding features straightforward.
 
+## Current Milestone: v1.2 Weather Widget
+
+**Goal:** Add a weather widget in the header showing current temperature and conditions for Geneva using OpenWeatherMap API.
+
+**Target features:**
+- Header layout with date on left, weather on right
+- Current temperature and weather condition display
+- OpenWeatherMap API integration with loading/error states
+- Fetch weather data on page load
+
 ## Requirements
 
 ### Validated
@@ -27,7 +37,12 @@ A working React app that successfully demonstrates the GSD workflow from initial
 
 ### Active
 
-(No active requirements — ready for next milestone planning)
+**Weather Widget (v1.2):**
+- Weather widget displays in header (right side)
+- Shows current temperature for Geneva
+- Shows weather condition (icon/text)
+- Integrates with OpenWeatherMap API
+- Handles loading and error states
 
 ### Out of Scope
 
@@ -89,4 +104,4 @@ A working React app that successfully demonstrates the GSD workflow from initial
 | Lift state up to App.tsx | Single source of truth for color state shared by components | ✓ Good - clean data flow |
 
 ---
-*Last updated: 2026-01-31 after v1.1 milestone*
+*Last updated: 2026-01-31 after starting v1.2 milestone*
