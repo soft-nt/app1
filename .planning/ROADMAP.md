@@ -38,10 +38,10 @@ Plans:
   1. Green button with "Click me" text is visible on page
   2. Button is centered horizontally on page
   3. Button is positioned below the date display
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 03-01: TBD during planning
+- [ ] 03-01-PLAN.md — Create Button component with green styling, integrate below DateDisplay
 
 #### Phase 4: Interactive Color Change
 **Goal**: User can click button to change date color
@@ -65,7 +65,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|-----------|----------------|--------|-----------|
 | 1. Project Setup | v1.0 | 1/1 | Complete | 2026-01-31 |
 | 2. Date Display | v1.0 | 1/1 | Complete | 2026-01-31 |
-| 3. Button UI | v1.1 | 0/0 | Not started | - |
+| 3. Button UI | v1.1 | 0/1 | Planned | - |
 | 4. Interactive Color Change | v1.1 | 0/0 | Not started | - |
 
 ---
